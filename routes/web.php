@@ -11,4 +11,6 @@
 |
 */
 
-// Route::get('/','autorController@home');
+Route::get('/', function () {
+    return view('welcome');
+});
